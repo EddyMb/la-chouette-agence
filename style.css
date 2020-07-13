@@ -920,9 +920,10 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    h1,
+    h1{
+        font-size: 27px;
+    }
     h2,
-    h3,
     h4,
     h5,
     h6,
@@ -930,6 +931,9 @@ h4 {
     #disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;
+    }
+    h3{
+        font-size: 14px;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -1051,6 +1055,16 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .img-responsive{
+        display:inline-block ;
+    }
+    .social{
+        display: flex;
+        justify-content: space-between;
+    }
+    .col-sm-4 .partenaires{
+        align-items: center;
     }
 }
 
