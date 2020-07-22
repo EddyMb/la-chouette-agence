@@ -377,6 +377,8 @@ blockquote p::after {
     z-index: 2;
 }
 
+
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -664,7 +666,7 @@ label,
 .btn{
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color:black;important;
 }
 
 a {
@@ -852,11 +854,14 @@ h4 {
 .contact-form{
     background:#f1f1f1;
     width: 85%;
-    max-width: 600px;
+    max-width: 500px;
     border-radius: 8px;
     box-sizing: border-box;
     padding: 10px 20px;
     box-shadow: 0 0 20px #000000b3;
+    margin: 50px;
+    
+    
     
 }
 .form-group{
@@ -880,6 +885,29 @@ h4 {
     font-size: 18px;
     margin-top: 6px;
 }
+
+.contact{
+    margin-left: 50px;
+}
+
+.partenaires{
+   text-align: center;
+}
+.liste{
+     list-style: none;
+     margin-right: 30px;
+ }
+
+ #bloc-5-cta h2{
+     background-color: rgba(0, 0, 0, .5);
+     padding: 20px 20px 20px 20px;
+     max-width: 500px;
+     margin: auto;
+     font-weight: 700;
+     font-size: 20px;
+ }
+ 
+
 
 
 @media (max-width: 1024px) {
@@ -1094,9 +1122,11 @@ h4 {
         display: flex;
         justify-content: space-between;
     }
-    .col-sm-4 .partenaires{
-        align-items: center;
+    .contact-form{
+        margin: 35px;
     }
+   
+   
 }
 
 @media (max-width: 400px) {
@@ -1105,6 +1135,13 @@ h4 {
         padding-right: 0;
     }
 }
+
+@media (max-width: 509px) {
+    #bloc-5-cta h2{
+        max-width: 300px;
+    }
+}
+
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
