@@ -666,7 +666,7 @@ label,
 .btn{
     font-family: "helvetica";
     font-weight: 400;
-    color:black;important;
+    color:black !important;
 }
 
 a {
@@ -815,7 +815,7 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!!important;
+    color: #FFFFFF!important;
 }
 
 .ltc-white:hover {
@@ -975,12 +975,7 @@ h4 {
         display: block;
         width: 100%;
     }
-    .bloc-fill-screen .fill-bloc-top-edge,
-    .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+   
 }
 
 @media (max-width: 767px) {
