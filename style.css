@@ -809,7 +809,7 @@ h4 {
 }
 
 .ltc-white {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .ltc-white:hover {
@@ -888,7 +888,7 @@ h4 {
 .liste {
   list-style: none;
   margin-right: 30px;
-}*/
+}
 
 #bloc-5-cta h2 {
   background-color: rgba(15, 14, 14, 0.671);
@@ -1121,6 +1121,13 @@ h4 {
     padding-left: 0;
     padding-right: 0;
   }
+  
+ #bloc-1-hero h1{
+   font-size: 26px;
+ }
+ h3{
+   font-size: 18px;
+ }
 }
 
 @media (max-width: 509px) {
